@@ -1,0 +1,16 @@
+id_vehiculo,marca,modelo,gama,suma_asegurada,dist
+1,Fiat,Cronos,Baja gama,30467000,0.1235
+2,Chevrolet,Onix,Baja gama,30430900,0.0679
+3,Renault,Kwid,Baja gama,26510000,0.0617
+4,Fiat,Argo,Baja gama,29774000,0.049400000000000006
+5,Hyundai,HB20,Baja gama,26600000,0.037000000000000005
+6,Fiat,Mobi,Baja gama,26643000,0.037000000000000005
+7,JMEV,Easy,Baja gama,27499500,0.009899999999999999
+8,Toyota,Corolla Cross,Gama alta,51918000,0.0765
+9,Toyota,RAV4,Gama alta,85500000,0.018500000000000003
+10,Toyota,Hilux,Gama alta,40589000,0.158
+11,Toyota,Yaris,Gama media,32473000,0.121
+12,Peugeot,208,Gama media,30890000,0.1173
+13,Citroën,C3,Gama media,30790000,0.0519
+14,Renault,Logan,Gama media,34630000,0.0395
+15,Citroën,Basalt,Gama media,31670000,0.030899999999999997
