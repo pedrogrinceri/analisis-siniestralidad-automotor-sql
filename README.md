@@ -40,6 +40,7 @@ Evaluar la rentabilidad técnica de la cartera y responder:
 ---
 
 ## Estructura del repositorio
+
 ```text
 analisis-siniestralidad-automotor-sql/
 ├── data/
@@ -47,26 +48,32 @@ analisis-siniestralidad-automotor-sql/
 ├── sql/
 │   └── consultas SQL del análisis
 ├── Analisis_Siniestralidad_Automotor_SQL.pdf
-└── README.md    
+└── README.md
+```
+
 ---
 
-## ▶Cómo correr el proyecto
-1. Importar los archivos CSV en una base de datos (MySQL recomendado)  
-2. Ejecutar las consultas de la carpeta `sql/`  
+## Cómo correr el proyecto
+
+1. Importar los archivos CSV en una base de datos (MySQL recomendado)
+2. Ejecutar las consultas en la carpeta `sql`
 
 ---
 
 ## Informe completo
-El desarrollo completo del análisis se encuentra en:  
+
+El desarrollo completo del análisis se encuentra en:
 `Analisis_Siniestralidad_Automotor_SQL.pdf`
 
 ---
 
 ## Próximo paso
-Versión en Python en desarrollo:  
+
+Versión en Python en desarrollo:
 **Análisis de Siniestralidad REBOOT (Python)**
 
 ---
 
 ## Nota
+
 Los datos utilizados son simulados y fueron generados con fines educativos.
