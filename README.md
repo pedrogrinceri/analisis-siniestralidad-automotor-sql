@@ -1,47 +1,72 @@
-\# Análisis de Siniestralidad del Ramo Automotor mediante SQL
+# Análisis de Siniestralidad Automotor (SQL)
 
-Este proyecto analiza el comportamiento de una cartera simulada de
-seguros automotores utilizando consultas SQL sobre una base de datos
-relacional.
+## Resumen
+Este proyecto analiza el comportamiento de una cartera simulada de seguros automotor (2014–2019) mediante consultas SQL sobre una base de datos relacional.
 
-El objetivo del análisis es estudiar la siniestralidad de la cartera a
-través de métricas actuariales clave, permitiendo comprender los
-factores que explican el resultado técnico del negocio.
+El objetivo es evaluar la siniestralidad de la cartera utilizando métricas actuariales clave como exposición, frecuencia, severidad y loss ratio para entender los factores que explican el resultado técnico del negocio.
 
-\## Métricas analizadas
+---
 
-Las principales métricas utilizadas en el análisis fueron:
+## Problema
+Evaluar la rentabilidad técnica de la cartera y responder:
 
-\- Exposición (UER) - Frecuencia de siniestros - Severidad de los
-siniestros - Loss Ratio - Resultado técnico
+- ¿La prima es suficiente para cubrir el riesgo?
+- ¿Qué coberturas presentan mayor siniestralidad?
+- ¿Cómo evoluciona el resultado a lo largo de los ejercicios?
+- ¿Existen segmentos con peor desempeño?
 
-\## Descripción de los datos
+---
 
-La base de datos fue generada específicamente para el proyecto y
-representa una cartera simulada de pólizas automotor correspondiente a
-cinco ejercicios contables (2014-2015 a 2018-2019).
+##  Qué se hizo
+- Modelado relacional de pólizas, coberturas y siniestros  
+- Construcción de base de datos simulada (5 ejercicios contables)  
+- Cálculo de métricas actuariales:
+  - Exposición (UER)  
+  - Frecuencia  
+  - Severidad  
+  - Loss Ratio  
+  - Resultado técnico  
+- Análisis por ejercicio, cobertura y segmentaciones  
+- Controles de consistencia de datos  
 
-La estructura de la base permite realizar análisis a nivel:
+---
 
-\- Póliza - Cobertura - Siniestro - Ejercicio contable
+## Hallazgos clave
+- La cartera presenta resultados cercanos al equilibrio con variaciones entre ejercicios  
+- Existen diferencias relevantes entre coberturas en términos de volatilidad  
+- Determinados segmentos concentran mayor siniestralidad  
+- El resultado técnico se explica principalmente por la dinámica frecuencia × severidad  
 
-\## Herramientas utilizadas
+---
 
-\- SQL - Modelado de bases de datos relacionales - Métricas actuariales
-de siniestralidad
+## Estructura del repositorio
+```text
+analisis-siniestralidad-automotor-sql/
+├── data/
+│   └── archivos CSV utilizados para construir la base de datos
+├── sql/
+│   └── consultas SQL del análisis
+├── Analisis_Siniestralidad_Automotor_SQL.pdf
+└── README.md    
+---
 
-\## Contenido del repositorio
+## ▶Cómo correr el proyecto
+1. Importar los archivos CSV en una base de datos (MySQL recomendado)  
+2. Ejecutar las consultas de la carpeta `sql/`  
 
-\- \`Analisis_Siniestralidad_Automotor_SQL.pdf\` Informe completo del
-análisis realizado.
+---
 
-\- \`sql/\` Consultas SQL utilizadas para calcular las diferentes
-métricas.
+## Informe completo
+El desarrollo completo del análisis se encuentra en:  
+`Analisis_Siniestralidad_Automotor_SQL.pdf`
 
-\- \`data/\` Archivos CSV utilizados para construir la base de datos del
-análisis.
+---
 
-\## Notas
+## Próximo paso
+Versión en Python en desarrollo:  
+**Análisis de Siniestralidad REBOOT (Python)**
 
-Los datos utilizados en este proyecto son simulados y fueron generados
-únicamente con fines educativos y de análisis.
+---
+
+## Nota
+Los datos utilizados son simulados y fueron generados con fines educativos.
