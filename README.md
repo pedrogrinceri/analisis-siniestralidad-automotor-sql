@@ -35,7 +35,7 @@ Evaluar la rentabilidad técnica de la cartera y responder:
 - La cartera presenta resultados cercanos al equilibrio con variaciones entre ejercicios  
 - Existen diferencias relevantes entre coberturas en términos de volatilidad  
 - Determinados segmentos concentran mayor siniestralidad  
-- El resultado técnico se explica principalmente por la dinámica frecuencia × severidad  
+- El resultado técnico se explica principalmente por el comportamiento de la cobertura de Responsabilidad Civil  
 
 ---
 
